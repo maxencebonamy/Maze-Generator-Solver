@@ -1,13 +1,16 @@
 # Maze-Generator-Solver
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
+![Language](https://img.shields.io/badge/Library-SFML-green)
+![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
 ## Description
-![image](https://user-images.githubusercontent.com/66129931/186623023-a7975a76-0cb2-41fa-9f2c-424fe185d08d.png)
+![image](https://user-images.githubusercontent.com/66129931/199507988-34cf6672-a503-4487-9095-fdb96a4b0a1e.png)
 
 ## Features
-![image](https://user-images.githubusercontent.com/66129931/186624422-42e07741-d22b-479e-8a86-f838929c92d4.png)
+![image](https://user-images.githubusercontent.com/66129931/199508201-5f58c612-6a6e-45f9-8a21-b8a054faf134.png)
 
 ## Dependencies
-![image](https://user-images.githubusercontent.com/66129931/186623271-1e4bf8ce-ba0a-4eb0-826e-7db7a0e57509.png)
+![image](https://user-images.githubusercontent.com/66129931/199508122-5aa2c7c1-23b5-4cb4-a32b-92ac0b805305.png)
 
 ## Generation examples
 
