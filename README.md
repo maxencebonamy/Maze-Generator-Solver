@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/Sand_Box.png" width="100%" alt="Sand Box">
+	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/Maze-Generator-Solver.png" width="100%" alt="Sand Box">
 </p>
 
 
