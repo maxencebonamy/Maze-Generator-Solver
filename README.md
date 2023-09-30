@@ -1,35 +1,83 @@
-# Maze-Generator-Solver
-![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
-![Language](https://img.shields.io/badge/Library-SFML-green)
-![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
+<p align="center">
+	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/Sand_Box.png" width="100%" alt="Sand Box">
+</p>
 
-## Description
-![image](https://user-images.githubusercontent.com/66129931/199507988-34cf6672-a503-4487-9095-fdb96a4b0a1e.png)
 
-## Features
-![image](https://user-images.githubusercontent.com/66129931/199508201-5f58c612-6a6e-45f9-8a21-b8a054faf134.png)
 
-## Dependencies
-![image](https://user-images.githubusercontent.com/66129931/199508122-5aa2c7c1-23b5-4cb4-a32b-92ac0b805305.png)
+<br>
 
-## Generation examples
+<p align="center">
+	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/1_Description.png" width="100%" alt="Description">
+</p>
 
-### Kruskal
-![kruskal](https://user-images.githubusercontent.com/66129931/186627705-a9472170-535c-43f6-861d-833344822745.gif)
+This software is a mathematical simulation that generates a labyrinth and then solves it using an algorithm of your choice.
 
-### Depth First
-![depth_first](https://user-images.githubusercontent.com/66129931/186627781-5f693420-df9f-41e6-bfbb-cb39daa441cf.gif)
+### Algorithmes de génération
+- **Prim:**
+- **Kruskal:**
+- **Hunt and Kill:**
+- **Depth First:**
+- **Aldous-Broder:**
 
-### Prim
-![prim](https://user-images.githubusercontent.com/66129931/186627763-6889e96c-abf4-4dda-9672-233552883e5a.gif)
+### Algorithmes de résolution
+- **Breadth First:**
 
-### Aldous and Broder (in speed x5 because it is extremely slow)
-![aldous_and_broder](https://user-images.githubusercontent.com/66129931/186627770-2734e8a8-3c92-46f8-b3c3-5b7dfcccd644.gif)
+<br>
 
-### Hunt and Kill
-![hunt_and_kill](https://user-images.githubusercontent.com/66129931/186627785-dbfb784b-83ab-440e-94ea-a8c3a926ddb9.gif)
+<p align="center">
+	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/2_Get_Started.png" width="100%" alt="Get Started">
+</p>
 
-## Solve example
+### Launch the software:
 
-### Breadth First
-![breadth_first](https://user-images.githubusercontent.com/66129931/186627776-4c9e99a2-48b3-47bf-8d47-5f2996271831.gif)
+1. Click on the <a href="https://github.com/maxencebonamy/Sand-Box/releases" target="_blank">Releases</a> button on the right and select the **latest version**.
+2. Download the **.zip** archive and extract the files.
+3. Run the **.exe** executable.
+
+### Compile:
+
+> [!NOTE]
+> *Prerequisites:*
+> - [x] *Git must be installed on your computer. If not, <a href="https://git-scm.com/downloads" target="_blank">click here.</a>*
+> - [x] *Xmake must be installed on your computer, if not, <a href="https://xmake.io/#/getting_started?id=installation" target="_blank">click here.</a>*
+<br>
+
+1. **Clone** the repository on your computer. To do this, open a terminal in the folder of your choice and run the following command:
+```
+git clone https://github.com/maxencebonamy/Maze-Generator-Solver
+```
+
+2. **Navigate** inside the folder you've just cloned with the following command:
+```
+cd Maze-Generator-Solver
+```
+
+3. **Compile** the project with the following command:
+```
+xmake
+```
+
+4. **Run** the executable with this command:
+```
+xmake run main --generation kruskal
+```
+*This is an example, you can change the name of the generation algorithm and add other parameters. This is described in greater detail in the "Features" section.*
+
+<br>
+
+<p align="center">
+	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/3_Features.png" width="100%" alt="Features">
+</p>
+
+### Parameters that can be passed on the command line:
+- **--generation** or **-g**: specify generation algorithm ("kuskal", "prim", "hunt-and-kill", "depth-first" or "aldous-brother").
+- **--solve** or **-s**: specify resolution algorithm (default "breadth-first" or "none" to avoid resolving the maze).
+- **--speed**: specify the speed of the algorithm (default 1).
+- **--fps** or **-f**: specify the number of images displayed per second (default 60, 0 for no limit).
+- **--fullscreen**: launch software in full screen mode.
+- **--cel-size** or **-c**: specify cell size in pixels (default 1).
+
+**Example:** the following command will launch the software in full screen mode, and generate a maze using the "hunt-and-kill" algorithm without solving it, with a speed of 10, 120 images displayed per second and a cell size of 10 pixels.
+```
+Maze-Generator-Solver.exe -g hunt-and-kill -s none --speed 10 -f 120 --fullscreen -c 10
+```
