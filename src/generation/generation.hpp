@@ -3,6 +3,7 @@
 #include "SFML/Graphics.hpp"
 #include "vector/vector2.hpp"
 #include <memory>
+#include <array>
 
 
 class Generation {

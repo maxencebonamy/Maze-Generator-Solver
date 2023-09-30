@@ -16,24 +16,9 @@
 extern const Vector2 WINDOW_SIZE;
 // The name of the simulation window
 extern const std::string WINDOW_TITLE;
-// The number of images displayed per second
-extern const int WINDOW_FPS;
 // The background color of the window
 extern const sf::Color WINDOW_COLOR;
-
-extern const bool WINDOW_FULLSCREEN;
-
-extern const int SPEED;
-
-// The length of the side of a cell (in pixels)
-extern const float CELL_SIZE;
-// The dimensions of the grid (in pixels)
-extern const Vector2 GRID_SIZE;
-
 
 extern const sf::Color WALL_COLOR;
 
 extern const sf::Color PATH_COLOR;
-
-extern const std::function<std::unique_ptr<Generation>()> generationFactory;
-extern const std::function<std::unique_ptr<Solve>()> solveFactory;

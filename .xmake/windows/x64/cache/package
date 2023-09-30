@@ -1,0 +1,210 @@
+{
+    cxxopts = {
+        version = "v3.1.1",
+        __requirestr = "cxxopts",
+        license = "MIT",
+        installdir = [[C:\Users\maxen\AppData\Local\.xmake\packages\c\cxxopts\v3.1.1\da452aeb9ec14d16b58ffaced97bda3c]],
+        sysincludedirs = [[C:\Users\maxen\AppData\Local\.xmake\packages\c\cxxopts\v3.1.1\da452aeb9ec14d16b58ffaced97bda3c\include]],
+        envs = {
+            PATH = {
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\c\cxxopts\v3.1.1\da452aeb9ec14d16b58ffaced97bda3c\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\c\cmake\3.26.4\4d23fc87455a4a1c819e093bd8456f0f\bin]]
+            }
+        },
+        __enabled = true
+    },
+    sfml = {
+        links = {
+            "sfml-graphics-s",
+            "sfml-window-s",
+            "sfml-audio-s",
+            "sfml-network-s",
+            "sfml-system-s",
+            "sfml-main",
+            "freetype",
+            "zlib",
+            "FLAC",
+            "vorbisenc",
+            "vorbisfile",
+            "vorbis",
+            "ogg",
+            "OpenAL32"
+        },
+        static = true,
+        __requirestr = "sfml",
+        syslinks = {
+            "opengl32",
+            "gdi32",
+            "advapi32",
+            "ws2_32",
+            "winmm",
+            "ole32",
+            "shell32",
+            "user32",
+            "kernel32"
+        },
+        installdir = [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e]],
+        sysincludedirs = {
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\include]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\f\freetype\2.13.1\4b38630cb5424a48b390ae0205b71a8a\include\freetype2]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\z\zlib\v1.3\bccfcefde78c424c9153cc8d3007dd63\include]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libflac\1.4.3\f7b7cbe18c1e4c57a040dee2ae9ea089\include]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\include]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libogg\v1.3.4\4e8a50f24d1f47288264c1c71acb4588\include]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\5fce2691e1314b50b3e02f6d76c33e11\include]]
+        },
+        libfiles = {
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\lib\sfml-graphics-s.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\lib\sfml-window-s.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\lib\sfml-audio-s.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\lib\sfml-network-s.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\lib\sfml-system-s.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\lib\sfml-main.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\f\freetype\2.13.1\4b38630cb5424a48b390ae0205b71a8a\lib\freetype.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\z\zlib\v1.3\bccfcefde78c424c9153cc8d3007dd63\lib\zlib.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libflac\1.4.3\f7b7cbe18c1e4c57a040dee2ae9ea089\lib\FLAC.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\lib\vorbisenc.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\lib\vorbisfile.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\lib\vorbis.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libogg\v1.3.4\4e8a50f24d1f47288264c1c71acb4588\lib\ogg.lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\5fce2691e1314b50b3e02f6d76c33e11\lib\OpenAL32.lib]]
+        },
+        defines = {
+            "SFML_STATIC",
+            "FLAC__NO_DLL",
+            "AL_LIBTYPE_STATIC"
+        },
+        linkdirs = {
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\f\freetype\2.13.1\4b38630cb5424a48b390ae0205b71a8a\lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\z\zlib\v1.3\bccfcefde78c424c9153cc8d3007dd63\lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libflac\1.4.3\f7b7cbe18c1e4c57a040dee2ae9ea089\lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libogg\v1.3.4\4e8a50f24d1f47288264c1c71acb4588\lib]],
+            [[C:\Users\maxen\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\5fce2691e1314b50b3e02f6d76c33e11\lib]]
+        },
+        version = "2.6.0",
+        __components_deps = {
+            audio = "system",
+            network = "system",
+            system = "main",
+            window = "system",
+            graphics = {
+                "window",
+                "system"
+            }
+        },
+        envs = {
+            PATH = {
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\c\cmake\3.26.4\4d23fc87455a4a1c819e093bd8456f0f\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\p\python\3.11.3\951a357c924d404f906b8a49a06f1297\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\p\python\3.11.3\951a357c924d404f906b8a49a06f1297\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\p\python\3.11.3\951a357c924d404f906b8a49a06f1297\Scripts]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\m\meson\1.1.1\57e40e870fa742108c5848302676f6e7\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\n\ninja\1.11.1\78d164c3843148ac8b27ecc870d62951\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\p\pkgconf\1.9.5\7aa7f5d8d91b45ca9187366bac38b16d\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\z\zlib\v1.3\bccfcefde78c424c9153cc8d3007dd63\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\f\freetype\2.13.1\4b38630cb5424a48b390ae0205b71a8a\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libogg\v1.3.4\4e8a50f24d1f47288264c1c71acb4588\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libflac\1.4.3\f7b7cbe18c1e4c57a040dee2ae9ea089\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\bin]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\5fce2691e1314b50b3e02f6d76c33e11\bin]]
+            },
+            PYTHONPATH = {
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\p\python\3.11.3\951a357c924d404f906b8a49a06f1297\Lib\site-packages]],
+                [[C:\Users\maxen\AppData\Local\.xmake\packages\m\meson\1.1.1\57e40e870fa742108c5848302676f6e7]]
+            }
+        },
+        __components_orderlist = {
+            "graphics",
+            "window",
+            "audio",
+            "network",
+            "system",
+            "main"
+        },
+        license = "zlib",
+        components = {
+            audio = {
+                links = {
+                    "sfml-audio-s",
+                    "openal32",
+                    "flac",
+                    "vorbisenc",
+                    "vorbisfile",
+                    "vorbis",
+                    "ogg"
+                }
+            },
+            window = {
+                links = "sfml-window-s",
+                syslinks = {
+                    "opengl32",
+                    "gdi32",
+                    "advapi32"
+                }
+            },
+            __base = {
+                linkdirs = {
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\lib]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\f\freetype\2.13.1\4b38630cb5424a48b390ae0205b71a8a\lib]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\z\zlib\v1.3\bccfcefde78c424c9153cc8d3007dd63\lib]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libflac\1.4.3\f7b7cbe18c1e4c57a040dee2ae9ea089\lib]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\lib]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libogg\v1.3.4\4e8a50f24d1f47288264c1c71acb4588\lib]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\5fce2691e1314b50b3e02f6d76c33e11\lib]]
+                },
+                syslinks = {
+                    "ole32",
+                    "shell32",
+                    "user32",
+                    "winmm",
+                    "kernel32"
+                },
+                sysincludedirs = {
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\include]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\f\freetype\2.13.1\4b38630cb5424a48b390ae0205b71a8a\include\freetype2]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\z\zlib\v1.3\bccfcefde78c424c9153cc8d3007dd63\include]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libflac\1.4.3\f7b7cbe18c1e4c57a040dee2ae9ea089\include]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\include]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\l\libogg\v1.3.4\4e8a50f24d1f47288264c1c71acb4588\include]],
+                    [[C:\Users\maxen\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\5fce2691e1314b50b3e02f6d76c33e11\include]]
+                },
+                links = {
+                    "freetype",
+                    "zlib",
+                    "FLAC",
+                    "vorbisenc",
+                    "vorbisfile",
+                    "vorbis",
+                    "ogg",
+                    "OpenAL32"
+                },
+                defines = {
+                    "SFML_STATIC",
+                    "FLAC__NO_DLL",
+                    "AL_LIBTYPE_STATIC"
+                }
+            },
+            network = {
+                links = "sfml-network-s",
+                syslinks = "ws2_32"
+            },
+            system = {
+                links = "sfml-system-s",
+                syslinks = {
+                    "winmm",
+                    "winmm"
+                }
+            },
+            main = {
+                links = "sfml-main"
+            },
+            graphics = {
+                links = "sfml-graphics-s"
+            }
+        },
+        __enabled = true
+    }
+}

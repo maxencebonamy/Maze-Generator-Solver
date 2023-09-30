@@ -3,6 +3,7 @@
 #include "SFML/Graphics.hpp"
 #include <memory>
 #include "vector/vector2.hpp"
+#include <array>
 
 
 class Solve {
