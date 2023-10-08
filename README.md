@@ -12,14 +12,14 @@
 
 This software is a mathematical simulation that generates a labyrinth and then solves it using an algorithm of your choice.
 
-### Algorithmes de génération
+### Generation algorithms:
 - **Prim:**
 - **Kruskal:**
 - **Hunt and Kill:**
 - **Depth First:**
 - **Aldous-Broder:**
 
-### Algorithmes de résolution
+### Solve algorithms:
 - **Breadth First:**
 
 <br>
