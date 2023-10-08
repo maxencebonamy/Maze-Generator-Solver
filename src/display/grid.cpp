@@ -31,13 +31,15 @@ Grid::Grid(std::shared_ptr<Generation> generation, std::shared_ptr<Solve> solve,
 }
 
 void Grid::updateSimulation() {
-    if (!_generation->hasFinished()) {
-        for (int i { 0 }; i < _speed; ++i) _generation->update();
-    }
-    else if (_solve != nullptr && !_solve->hasFinished()) {
-        if (_solve->hasStarted()) for (int i { 0 }; i < _speed; ++i) _solve->update();
-        else {
-            _solve->init(_map, WALL_COLOR);
+    if (_isRunning) {
+        if (!_generation->hasFinished()) {
+            for (int i { 0 }; i < _speed; ++i) _generation->update();
+        }
+        else if (_solve != nullptr && !_solve->hasFinished()) {
+            if (_solve->hasStarted()) for (int i { 0 }; i < _speed; ++i) _solve->update();
+            else {
+                _solve->init(_map, WALL_COLOR);
+            }
         }
     }
 

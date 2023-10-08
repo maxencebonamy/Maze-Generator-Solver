@@ -30,9 +30,6 @@
             [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\c\cxxopts\v3.1.1\da452aeb9ec14d16b58ffaced97bda3c\include]]
         }
     },
-    files = {
-        [[src\config.cpp]]
-    },
     depfiles_cl_json = "{\
     \"Version\": \"1.2\",\
     \"Data\": {\
@@ -247,5 +244,8 @@
         \"ImportedModules\": [],\
         \"ImportedHeaderUnits\": []\
     }\
-}"
+}",
+    files = {
+        [[src\config.cpp]]
+    }
 }

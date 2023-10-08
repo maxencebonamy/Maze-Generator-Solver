@@ -25,7 +25,7 @@ private:
 
     sf::Color _getColor(const Vector2& position) const;
 
-    bool _isRunning { false };
+    bool _isRunning { true };
 
     std::shared_ptr<Generation> _generation;
     std::shared_ptr<Solve> _solve;

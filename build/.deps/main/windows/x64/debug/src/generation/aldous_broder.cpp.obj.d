@@ -1,6 +1,34 @@
 {
-    files = {
-        [[src\generation\aldous_broder.cpp]]
+    values = {
+        [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\cl.exe]],
+        {
+            "-nologo",
+            "-Zi",
+            "-FS",
+            [[-Fdbuild\windows\x64\debug\compile.main.pdb]],
+            "-Od",
+            "-Isrc",
+            "-DSFML_STATIC",
+            "-DFLAC__NO_DLL",
+            "-DAL_LIBTYPE_STATIC",
+            "/EHsc",
+            "-external:W0",
+            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\include]],
+            "-external:W0",
+            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\f\freetype\2.13.1\4b38630cb5424a48b390ae0205b71a8a\include\freetype2]],
+            "-external:W0",
+            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\z\zlib\v1.3\bccfcefde78c424c9153cc8d3007dd63\include]],
+            "-external:W0",
+            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\l\libflac\1.4.3\f7b7cbe18c1e4c57a040dee2ae9ea089\include]],
+            "-external:W0",
+            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\include]],
+            "-external:W0",
+            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\l\libogg\v1.3.4\4e8a50f24d1f47288264c1c71acb4588\include]],
+            "-external:W0",
+            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\5fce2691e1314b50b3e02f6d76c33e11\include]],
+            "-external:W0",
+            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\c\cxxopts\v3.1.1\da452aeb9ec14d16b58ffaced97bda3c\include]]
+        }
     },
     depfiles_cl_json = "{\
     \"Version\": \"1.2\",\
@@ -209,35 +237,7 @@
         \"ImportedHeaderUnits\": []\
     }\
 }",
-    values = {
-        [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\cl.exe]],
-        {
-            "-nologo",
-            "-Zi",
-            "-FS",
-            [[-Fdbuild\windows\x64\debug\compile.main.pdb]],
-            "-Od",
-            "-Isrc",
-            "-DSFML_STATIC",
-            "-DFLAC__NO_DLL",
-            "-DAL_LIBTYPE_STATIC",
-            "/EHsc",
-            "-external:W0",
-            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\s\sfml\2.6.0\ec1bfcb987bf4337b6818db71c3d7d2e\include]],
-            "-external:W0",
-            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\f\freetype\2.13.1\4b38630cb5424a48b390ae0205b71a8a\include\freetype2]],
-            "-external:W0",
-            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\z\zlib\v1.3\bccfcefde78c424c9153cc8d3007dd63\include]],
-            "-external:W0",
-            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\l\libflac\1.4.3\f7b7cbe18c1e4c57a040dee2ae9ea089\include]],
-            "-external:W0",
-            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\efc0df09dbea49d0b67e1f82c3d5ca21\include]],
-            "-external:W0",
-            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\l\libogg\v1.3.4\4e8a50f24d1f47288264c1c71acb4588\include]],
-            "-external:W0",
-            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\5fce2691e1314b50b3e02f6d76c33e11\include]],
-            "-external:W0",
-            [[-external:IC:\Users\maxen\AppData\Local\.xmake\packages\c\cxxopts\v3.1.1\da452aeb9ec14d16b58ffaced97bda3c\include]]
-        }
+    files = {
+        [[src\generation\aldous_broder.cpp]]
     }
 }

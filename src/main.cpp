@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
         ("g,generation", "Select the generation algorithm (prim / kruskal / hunt-and-kill / depth-first / aldous-broder)", cxxopts::value<std::string>()->default_value("kruskal"))
         ("s,solve", "Set the solve algorithm (breadth-first (default) / none for not solving)", cxxopts::value<std::string>()->default_value("breadth-first"))
         ("speed", "Set the speed of the algorithm (1 by default)", cxxopts::value<int>()->default_value("1"))
-        ("c,cell-size", "Set the size of a cell (1 by default)", cxxopts::value<int>()->default_value("1"))
+        ("c,cell-size", "Set the size of a cell (25 by default)", cxxopts::value<int>()->default_value("25"))
         ("f,fps", "Set the number of images displayed par second (60 by default, 0 for unlimited)", cxxopts::value<int>()->default_value("60"))
         ("fullscreen", "Set the window in fullscreen", cxxopts::value<bool>()->implicit_value("true")->default_value("false"));
     options.allow_unrecognised_options();
