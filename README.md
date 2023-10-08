@@ -79,5 +79,5 @@ xmake run main --generation kruskal
 
 **Example:** the following command will launch the software in full screen mode, and generate a maze using the "hunt-and-kill" algorithm without solving it, with a speed of 10, 120 images displayed per second and a cell size of 10 pixels.
 ```
-Maze-Generator-Solver.exe -g hunt-and-kill -s none --speed 10 -f 120 --fullscreen -c 10
+./Maze-Generator-Solver.exe -g hunt-and-kill -s none --speed 10 -f 120 --fullscreen -c 10
 ```
