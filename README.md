@@ -17,23 +17,29 @@ This software is a mathematical simulation that generates a labyrinth and then s
 ### Generation algorithms:
 
 - **Prim:**
+
 https://github.com/maxencebonamy/Maze-Generator-Solver/assets/66129931/3c587c9c-f1ef-437c-a89c-4dfb024f5ddd
 
 - **Kruskal:**
+
 https://github.com/maxencebonamy/Maze-Generator-Solver/assets/66129931/9ddc9dee-e26d-47c1-8a92-3693542ecfe7
 
 - **Hunt and Kill:**
+
 https://github.com/maxencebonamy/Maze-Generator-Solver/assets/66129931/c0bf3ad8-81cc-4605-bdd2-4fe986ff0288
 
 - **Depth First:**
+
 https://github.com/maxencebonamy/Maze-Generator-Solver/assets/66129931/84147269-55fc-43db-9293-204eb7dd9604
 
 - **Aldous-Broder:**
+
 https://github.com/maxencebonamy/Maze-Generator-Solver/assets/66129931/49ba1879-99e5-4498-81ad-85238e0eaac9
 
 ### Solve algorithms:
 
 - **Breadth First:**
+
 https://github.com/maxencebonamy/Maze-Generator-Solver/assets/66129931/70233431-9955-42cf-936b-02394a019b03
 
 <br>
